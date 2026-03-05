@@ -1,0 +1,136 @@
+/* latin */
+@font-face {
+  font-family: 'Actor';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Actor-Regular'), local('Actor-Regular'), url(./fonts/Actor-Regular.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+body 
+{
+  min-height: 100%;
+  font-family: 'Actor', serif;
+  background-size: cover;
+  background-position: middle center;
+  padding-bottom: 50px;
+  background: url('../images/bg4.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.media{width:23%;background-color:#074f9f;;float:left;margin:5px 3px;border-radius: 5px;height:auto;}
+.media:first-child{margin: 6px 3px;}
+.media-object{width:100%;padding:5px;}
+.media-body{padding:5px;color:#87837d;}
+.bottomaligned {position:absolute; bottom:0;  margin-bottom:7px; left: 0;}
+.bottomright {position:absolute; bottom:0;  margin-bottom:7px; margin:7px; right: 0;}
+.bottomleft {position:absolute; bottom:0;  margin-bottom:7px; left: 100px;}
+.table {
+  background: #DCDCDC;
+}
+.table thead th {
+  background-color: #808080;
+  color: #fff;
+}
+.table td.fit, .table th.fit {
+  white-space: nowrap;
+  width: 1%;
+}
+.navbar-inverse {
+    background-color: #708090;
+    border-color: #696969;
+}
+.btn {
+	border-radius: 10px;
+}
+.input-group-addon {
+	border-radius: 10px;
+}
+.form-control {
+    border-radius: 10px;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus,.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #e2feff;
+    background-color: #696969;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #696969;
+    color: #ffffff;
+}
+.panel-hidden {
+    display: none;
+}
+.pagination > li > a, .pagination > li > span, .pagination > li > a, .pagination > li > span {
+    z-index: 2;
+    color: #ffffff;
+    background-color: #e32c2c;
+    border-color: transparent;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    z-index: 2;
+    color: #ffffff;
+    background-color: #981b07;
+    border-color: transparent;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 3;
+    color: #ffffff;
+    background-color: #660b0b;
+    border-color: transparent;
+    cursor: default;
+}
+.btn-success {
+    color: #ffffff;
+    background-color: #808080;
+    border-color: #696969;
+}
+.width-sm {
+    width: 2%;
+}
+.width-half-full {
+    width: 49.5%;
+}
+.width-full {
+    width: 99.5%;
+}
+a {
+    color: #2F4F4F;
+    text-decoration: none;
+}
+footer 
+{
+  text-align: center;
+  min-width: 100%;
+  min-height: 30px;
+  color: #fff;
+  padding: 3px;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0;
+  background-color: #708090;
+}
+label.isi {
+	font-weight:normal;
+	word-wrap: break-word;
+}
+.view-group {
+	margin-bottom:5px;
+}
+.chosen-single {
+	height:50px !important;
+	padding-top: 10px !important;
+}
+#zkode_chosen {
+	margin-top: -35px;
+}
+.ui-datepicker-month {
+	color:#000;
+}
+.ui-datepicker-year {
+	color:#000;
+}
+.input-error {
+    border-color: red;
+    background-color: orange;
+}
